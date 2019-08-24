@@ -1,0 +1,32 @@
+
+.notify-item{
+  width: 100%;
+  background: #ffffff;
+  padding: 25rpx 70rpx 25rpx 0;
+  border-bottom: solid 1px #ebebeb;
+  display: flex;
+}
+
+.notify-item  .avatar{
+  width: 120rpx;
+  height: 80rpx;
+  border-radius: 80rpx;
+  margin: 15rpx;
+}
+
+.notify-item .notify-title{
+  display: flex;
+  flex-direction: column
+}
+
+.notify-item .notify-source{
+  color: #818A8F;
+  font-size: 28rpx;
+  padding: 0 0 8rpx 0;
+}
+
+.notify-item .notify-title{
+  color: #AFAFAF;
+  font-size: 30rpx;
+  line-height: 34rpx;
+}

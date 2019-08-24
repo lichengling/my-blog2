@@ -1,0 +1,72 @@
+<view class="top-tab flex-tab">
+  <view class="toptab active" >
+    推荐
+  </view>
+  <view  class="toptab">
+    圆桌
+  </view>
+  <view class="toptab">
+    热门
+  </view>
+  <view class="toptab">
+    收藏
+  </view>
+</view>
+
+<scroll-view class="container">
+  <view class="ctnt0">
+    <swiper class="activity">
+      <swiper-item>
+        <image src="http://pic.qjimage.com/chineseview075/high/253-1886.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="http://dimg03.c-ctrip.com/images/100p080000003drw2C3DF_R_1024_10000_Q90.jpg"></image>
+      </swiper-item>
+    </swiper>
+
+    
+  <view class="feed-item">
+  <!-- 图片和来源 -->
+    <view class="feed-source">
+      <view class="avatar">
+          <image src="../../images/icon1.jpeg"></image>
+      </view>
+        <text>ReBecca赞了回答1</text>
+      <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+    </view>
+    <!-- 内容 -->
+    <view class="feed-content">
+        <view class="question">
+          <text>选择 Kindle 而不是纸质书的原因是什么？</text>
+        </view>
+        <view class="answer-body">
+           <view bindtap="bindItemTap">
+                        <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的怎么真心不懂了...</text>
+           </view>
+           <!-- 最后一排 -->
+           <view class="answer-actions" bindtap="bindItemTap">
+              <view class="like dot">
+                  <a>112 赞同 </a>
+              </view>
+              <view class="comments dot">
+                  <a>18 评论 </a>
+              </view>
+              <view class="follow-it">
+                  <a>关注问题</a>
+              </view>
+            </view>
+        </view>
+    </view>
+  </view>
+  </view>
+
+  <view class="ctnt2 placehold" hidden="true">
+    <text>圆桌</text>
+  </view>
+  <view class="ctnt3 placehold" hidden="true">
+    <text>热门</text>
+  </view>
+  <view class="ctnt4 placehold" hidden="true">
+    <text>收藏</text>
+  </view>
+</scroll-view>

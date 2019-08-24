@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/discovery/discovery",
+    "pages/index/index",
+    "pages/notify/nodify",
+    "pages/chat/chat",
+    "pages/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0068C4",
+    "navigationBarTitleText": "知乎",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ddd"
+  },
+  "debug":true,
+  "newworkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/index_focus.png"
+      },
+      {
+        "pagePath": "pages/discovery/discovery",
+        "text": "",
+        "iconPath": "/images/discovery.png",
+        "selectedIconPath": "/images/discovery_focus.png"
+      },
+      {
+        "pagePath": "pages/notify/nodify",
+        "text": "",
+        "iconPath": "/images/ring.png",
+        "selectedIconPath": "/images/ring_focus.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "",
+        "iconPath": "/images/chat.png",
+        "selectedIconPath": "/images/chat_focus.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "",
+        "iconPath": "/images/burger.png",
+        "selectedIconPath": "/images/burger_focus.png"
+      }
+    ]
+  }
+}

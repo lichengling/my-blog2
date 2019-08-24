@@ -1,0 +1,49 @@
+<scroll-view scroll-y class="container">
+  <view class="search">
+    <view class="search-left">
+      <image src="/images/search.png"></image>
+      <input placeholder="搜索话题，问题或人" placeholder-class="search-placeholder"></input>
+    </view>
+    <view class="search-right">
+      <image src="/images/lighting.png"></image>
+    </view>
+  </view>
+
+  <view class="feed-item">
+  <!-- 图片和来源 -->
+    <view class="feed-source">
+      <view class="avatar">
+          <image src="../../images/icon1.jpeg"></image>
+      </view>
+        <text>ReBecca赞了回答1</text>
+      <image class="item-more" mode="aspectFit" src="../../images/more.png"></image>
+    </view>
+    <!-- 内容 -->
+    <view class="feed-content">
+        <view class="question">
+          <text>选择 Kindle 而不是纸质书的原因是什么？</text>
+        </view>
+        <view class="answer-body">
+           <view bindtap="bindItemTap">
+                        <text class="answer-txt">难道不明白纸质书更贵啊！！！ 若觉得kindle更贵，我觉得要么阅读量太少，那确实没有买kindle的必要。要么买的都是盗版的纸质书？我不清楚不加以评论。。。 另外，用kindle看小说的怎么真心不懂了...</text>
+           </view>
+           <!-- 最后一排 -->
+           <view class="answer-actions" bindtap="bindItemTap">
+              <view class="like dot">
+                  <a>112 赞同 </a>
+              </view>
+              <view class="comments dot">
+                  <a>18 评论 </a>
+              </view>
+              <view class="follow-it">
+                  <a>关注问题</a>
+              </view>
+            </view>
+
+        </view>
+    </view>
+
+
+  </view>
+
+</scroll-view>

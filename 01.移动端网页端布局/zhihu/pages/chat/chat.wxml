@@ -1,0 +1,9 @@
+<view class="container">
+ <view class="notify-item">
+      <image class="avatar" src="../../images/icon8.jpg"></image>
+      <view class="notify-content">
+        <text class="notify-source">Alex</text>
+        <text class="notify-title">你好！</text>
+      </view>
+    </view>
+</view>

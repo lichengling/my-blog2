@@ -1,0 +1,72 @@
+.user {
+  width: 100%;
+  background: #fff;
+  padding: 30rpx 25rpx 30rpx 80rpx;
+  display: flex;
+}
+
+.user .avator{
+  margin: 15rpx 0 0 0;
+}
+
+.user .userinfo-avatar{
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 80rpx;
+}
+
+.user .user-info{
+  padding-left: 30rpx;
+  text-align: left;
+}
+
+.user .user-info text{
+  display: block;
+}
+
+.user .user-info .userinfo-nickname{
+  padding: 8rpx 0 10rpx 0;
+  font-size: 30rpx;
+  color: #818A8F;
+}
+
+.user .user-info .edit{
+  font-size: 30rpx;
+  color: #bababa;
+  line-height: 34rpx;
+}
+
+
+.my{
+  width: 100%;
+  margin: 15rpx 0 0 0;
+  
+}
+.my .my-item{
+  width: 100%;
+  background: #fff;
+  padding: 0;
+  display: flex;
+}
+.my .my-item .myitem-icon{
+  flex-grow: 1;
+}
+.my .my-item .myitem-icon image{
+  width: 45rpx;
+  height: 45rpx;
+  padding: 37.5rpx 0;
+  padding-left: 40rpx;
+}
+.my .my-item .myitem-name{
+  flex-grow: 7;
+  text-align: left;
+  font-size: 34rpx;
+  color: #6d6d6d;
+  line-height: 60rpx;
+  padding: 30rpx 0;
+  border-bottom: 2rpx solid #ebebeb;
+}
+.my .my-item:last-child .myitem-name{
+  border-bottom: none;
+}
